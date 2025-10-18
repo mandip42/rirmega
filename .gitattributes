@@ -1,0 +1,4 @@
+*.zip -text
+*.wav -text
+*.parquet -text
+*.csv -text

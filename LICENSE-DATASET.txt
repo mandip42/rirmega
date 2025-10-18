@@ -1,0 +1,8 @@
+RIR-Mega dataset licensing
+
+The dataset published on Zenodo is released under CC BY 4.0.
+Please cite the Zenodo record:
+DOI: https://doi.org/10.5281/zenodo.17387402
+
+Full license text:
+https://creativecommons.org/licenses/by/4.0/

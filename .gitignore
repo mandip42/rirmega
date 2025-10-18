@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build
+build/
+dist/
+
+# Do NOT commit large data
+rir_output_*/
+*.zip
+checksums/
+manifests/

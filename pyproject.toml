@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rirmega"
+version = "1.2.1"
+description = "Synthetic Room Impulse Responses + tools (generation, validation, baselines)"
+readme = "README.md"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "scipy",
+  "soundfile",
+  "tqdm",
+  "matplotlib",
+  "pandas",
+  "pyroomacoustics>=0.7.4"
+]
+
+[project.urls]
+Homepage = "https://github.com/mandip42/rirmega"
+Documentation = "https://github.com/mandip42/rirmega"
+Repository = "https://github.com/mandip42/rirmega"
+
+[project.scripts]
+rirmega = "rirmega.cli:main"
