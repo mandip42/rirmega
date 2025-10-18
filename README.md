@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RIR-Mega v1.2.1
 
 Synthetic Room Impulse Responses with tools for generation, validation, visualization, HF-style loading, and a baseline dereverb demo.
@@ -53,3 +54,6 @@ python scripts/rir_validation_v3.py --dataset ./rir_output_1k --report ./rir_val
 python scripts/rir_visual_check.py --dataset ./rir_output_50k
 python scripts/rir_validation_v3.py --dataset ./rir_output_50k --report ./rir_validation_report.csv
 ```
+=======
+# rirmega
+>>>>>>> f50426243d870c1d43846b60c0efff81917818ce
