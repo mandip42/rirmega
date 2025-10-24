@@ -7,6 +7,35 @@ Synthetic Room Impulse Responses with tools for generation, validation, visualiz
 - **Hugging Face dataset:** https://huggingface.co/datasets/mandipgoswami/rirmega
 - **Paper (arXiv):** https://arxiv.org/abs/2510.18917
 
+## How to Cite
+Please cite both the paper and the dataset
+```bash
+@misc{goswami2025rirmega,
+  title        = {RIR-Mega: A Large-Scale Room Impulse Response Corpus with Benchmarks for Industrial and Building Acoustics},
+  author       = {Goswami, Mandip},
+  year         = {2025},
+  eprint       = {2510.18917},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.SD},
+  url          = {https://arxiv.org/abs/2510.18917}
+}
+
+@dataset{goswami_2025_rirmega_zenodo,
+  author       = {Goswami, Mandip},
+  title        = {RIR-Mega Dataset},
+  year         = {2025},
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.17387402},
+  url          = {https://doi.org/10.5281/zenodo.17387402}
+}
+```
+```bash
+Goswami, M. (2025). RIR-Mega: A Large-Scale Room Impulse Response Corpus with Benchmarks for Industrial and Building Acoustics. arXiv:2510.18917. https://arxiv.org/abs/2510.18917
+
+Goswami, M. (2025). RIR-Mega Dataset (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17387402
+```
+
 
 # RIR-Mega v1.2.1
 
@@ -55,34 +84,7 @@ python scripts/rir_visual_check.py --dataset ./rir_output_50k
 python scripts/rir_validation_v3.py --dataset ./rir_output_50k --report ./rir_validation_report.csv
 ```
 =======
-## Citation
-Please cite both the paper and the dataset
-```bash
-@misc{goswami2025rirmega,
-  title        = {RIR-Mega: A Large-Scale Room Impulse Response Corpus with Benchmarks for Industrial and Building Acoustics},
-  author       = {Goswami, Mandip},
-  year         = {2025},
-  eprint       = {2510.18917},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.SD},
-  url          = {https://arxiv.org/abs/2510.18917}
-}
 
-@dataset{goswami_2025_rirmega_zenodo,
-  author       = {Goswami, Mandip},
-  title        = {RIR-Mega Dataset},
-  year         = {2025},
-  publisher    = {Zenodo},
-  version      = {v1.0.0},
-  doi          = {10.5281/zenodo.17387402},
-  url          = {https://doi.org/10.5281/zenodo.17387402}
-}
-```
-```bash
-Goswami, M. (2025). RIR-Mega: A Large-Scale Room Impulse Response Corpus with Benchmarks for Industrial and Building Acoustics. arXiv:2510.18917. https://arxiv.org/abs/2510.18917
-
-Goswami, M. (2025). RIR-Mega Dataset (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17387402
-```
 # rirmega
 >>>>>>> f50426243d870c1d43846b60c0efff81917818ce
 
