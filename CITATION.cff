@@ -1,14 +1,18 @@
 cff-version: 1.2.0
-message: "If you use this software or dataset, please cite it."
-title: "RIR-Mega v1.2.1"
+message: "If you use RIR-Mega, please cite both the paper and the dataset DOI."
+title: "RIR-Mega: A Large-Scale Room Impulse Response Corpus with Benchmarks"
 authors:
-  - family-names: YourLastName
-    given-names: YourFirstName
-    orcid: https://orcid.org/0000-0000-0000-0000
-version: "1.2.1"
-date-released: "2025-10-18"
-identifiers:
-  - type: doi
-    value: https://doi.org/10.5281/zenodo.17387402
-repository-code: https://github.com/mandip42/rirmega
-url: https://huggingface.co/datasets/<you>/RIR-Mega
+  - family-names: Goswami
+    given-names: Mandip
+year: 2025
+doi: 10.5281/zenodo.17387402
+repository-code: "https://github.com/mandip42/rirmega"
+preferred-citation:
+  type: article
+  title: "RIR-Mega: A Large-Scale Room Impulse Response Corpus with Benchmarks for Industrial and Building Acoustics"
+  authors:
+    - family-names: Goswami
+      given-names: Mandip
+  year: 2025
+  notes: "arXiv:2510.18917"
+  url: "https://arxiv.org/abs/2510.18917"
